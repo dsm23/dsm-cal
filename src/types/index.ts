@@ -12,3 +12,8 @@ export enum Months {
   November = 'November',
   December = 'December',
 }
+
+export interface CompareType {
+  date: Date;
+  day: number;
+}

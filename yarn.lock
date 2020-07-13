@@ -1035,6 +1035,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@hookform/error-message@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@hookform/error-message/-/error-message-0.0.2.tgz#230ef927a94f22d1eae91088f69e42254bc888f9"
+  integrity sha512-0zmcp1Xh9n3VBMYH4Dn55klONJabF15kkVonroI2kOWFZZVmAzRL/tgVRaE7ZMpdqBFWdURQ/tAzXDYARSlwbA==
+
 "@jest/types@^25.5.0":
   version "25.5.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.5.0.tgz#4d6a4793f7b9599fc3680877b856a97dbccf2a9d"
