@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `David Murdoch cal example`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `This is a web native display inspired by the unix/linux cal terminal command`,
+    author: `dsm23`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
