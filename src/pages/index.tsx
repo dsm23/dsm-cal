@@ -45,19 +45,19 @@ const IndexPage: FunctionComponent = () => {
       <SEO title="Home" />
       <div className="font-mono text-white max-w-md">
         <h1 className="font-mono text-gray-500 px-3">
-          <span className="text-green-900">~</span> cal
+          <span className="text-green-700">~</span> cal
         </h1>
         <CalTable
           date={new Date(today.getFullYear(), today.getMonth() + 1, 0)}
         />
         <h1 className="font-mono text-gray-500 px-3 mt-10">
-          <span className="text-green-900">~</span> ncal
+          <span className="text-green-700">~</span> ncal
         </h1>
         <NcalTable
           date={new Date(today.getFullYear(), today.getMonth() + 1, 0)}
         />
         <h1 className="px-3 text-gray-500 mt-8 flex items-baseline font-mono">
-          <span className="text-green-900 mr-2">~</span>
+          <span className="text-green-700 mr-2">~</span>
           cal
           <form className="ml-2 w-full max-w-sm" onSubmit={onSubmit}>
             <div className="flex items-center border-b-2 border-green-900 py-2">
@@ -84,7 +84,7 @@ const IndexPage: FunctionComponent = () => {
               />
 
               <button
-                className="flex-shrink-0 bg-transparent border-green-900 border-2 hover:border-green-700 text-sm text-green-900 hover:text-green-700 py-2 px-4 rounded tracking-widest"
+                className="flex-shrink-0 bg-transparent border-green-600 border-2 hover:border-green-400 text-sm text-green-600 hover:text-green-400 py-2 px-4 rounded tracking-widest"
                 type="submit"
               >
                 Submit
