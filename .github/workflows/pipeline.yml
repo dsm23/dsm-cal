@@ -1,4 +1,4 @@
-name: Node CI
+name: Pipeline on Pull Request
 
 on:
   push:
