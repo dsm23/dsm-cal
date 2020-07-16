@@ -1,35 +1,14 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, HTMLAttributes } from 'react';
 import { Link } from 'gatsby';
 
-interface Props {
+interface Props extends HTMLAttributes<HTMLElement> {
   siteTitle: string;
 }
 
-const Header: FunctionComponent<Props> = ({ siteTitle = '' }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header: FunctionComponent<Props> = ({ siteTitle = '', ...props }) => (
+  <header className="bg-purple-900 mb-6" {...props}>
+    <div className="container mx-auto py-6 px-4">
+      <h1 className="text-white text-3xl m-0">{siteTitle}</h1>
     </div>
   </header>
 );

@@ -1,6 +1,6 @@
 import React, { HTMLAttributes } from 'react';
 
-const Small = (props: HTMLAttributes<HTMLDivElement>) => (
+const Small = (props: HTMLAttributes<HTMLElement>) => (
   <small className="text-red-600" {...props} />
 );
 
